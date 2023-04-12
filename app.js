@@ -53,8 +53,6 @@ var flashcardGroups = [
 var list = document.getElementById("list")
 var prep = ``;
 if (location.search.includes("id")) {
-    console.log(`You won a prize! If you want the answers you need to type`)
-    console.log("for(var i=0;i<card.options.length;i++){if(card.options[i].correct){console.warn(card.options[i].text)}}")
     var a = location.search;
     a=a.substring(4,10)
     loadgroup(parseInt(a))
