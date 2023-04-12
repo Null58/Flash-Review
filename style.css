@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.titleBar {
+    display: flex;
+    margin: 10px;
+    box-shadow: #aaa 0px 0px 10px 0px;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content:space-between;
+}
+.titleBar > h1 {
+    margin: 0px;
+}
+button {
+    border: none;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 50px;
+}
+.titleBar > button {
+    padding: 15px;
+}
+#list {
+    margin: 20px;
+    height: calc(100% - 135px);
+    overflow-y:scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+.flashcardGroup {
+    margin: 10px;
+    box-shadow: #aaa 0px 0px 10px 0px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.flashcardGroup > div > h3 {
+    margin: 0px;
+}
+.flashcardGroup > div > h5 {
+    margin: 0px;
+    font-weight: normal;
+}
+.flashcardGroup > button {
+    background-color: #6f6;
+}
+
+
+
+
+.topBar {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: #aaa 0px 0px 10px 0px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.topBar > h4,.topBar > h5 {
+    margin: 0px;
+    font-weight: normal;
+}
+.topBar > h5 {
+    color: #888;
+}
+.questions {
+    
+}
+.option {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 20px;
+    padding: 20px;
+}
+.content > h1 {
+    text-align: center;
+}
+.content {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%,0%);
+}
